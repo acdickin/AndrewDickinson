@@ -38,19 +38,19 @@ export default class Home extends Component{
    
         <div id="projListMain">
           <div className="projItem" >
-            Proj item
+            <span>Proj item</span>
           </div>
           <div className="projItem" >
-            Proj item
+             <span>Proj item</span>
           </div>
           <div className="projItem" >
-            Proj item
+            <span>Proj item</span>
           </div>
           <div className="projItem" >
-            Proj item
+            <span>Proj item</span>
           </div>
           <div className="projItem" >
-            Proj item
+            <span>Proj item</span>
           </div>
         </div>
 

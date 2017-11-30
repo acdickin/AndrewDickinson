@@ -1,5 +1,6 @@
 $blue: #6FCEF1;
-$green: #96CB57;
+$ygreen: #96CB57;
+$green:#6FCF97;
 $grey: #828282;
 $dgrey: #6E6E70;
 $white: #F2F2F2;
@@ -7,6 +8,7 @@ body{
   margin:0;
   background-color:$white;
   font-family: Rubik;
+  color:$white;
 }
 .content{
    min-height: calc(100vh - 80px);

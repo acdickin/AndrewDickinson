@@ -3,3 +3,12 @@ img#selfImg {
   border-radius: 50%;
   width: 100vw;
 }
+ .projItem{
+    display:inline-block;
+    width:90%;
+    height:200px;
+    margin:5%;
+    background-color: $grey;
+    box-shadow:4px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
