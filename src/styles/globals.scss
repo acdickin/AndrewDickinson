@@ -1,0 +1,18 @@
+$blue: #6FCEF1;
+$green: #96CB57;
+$grey: #828282;
+$dgrey: #6E6E70;
+$white: #F2F2F2;
+body{
+  margin:0;
+  background-color:$white;
+  font-family: Rubik;
+}
+.content{
+   min-height: calc(100vh - 120px);
+   margin-top: 120px;
+}
+.container{
+  margin:0;
+  padding:0;
+}
