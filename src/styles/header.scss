@@ -1,9 +1,9 @@
 @import './globals';
 #header{
-	height:60px;
+	height: 60px;
 	width:100%;
 	top:0;
-	padding-top: 5px;
+	padding-bottom: 10px;
 	position: fixed;
 	z-index: 666;	
 	background: $green;
@@ -47,7 +47,7 @@
 		text-align: center;
 		font-family: arial;
 	  font-weight: 600;
-	margin-top: 50px;
+		margin-top: 50px;
 		&.active{
 			display:grid;
 		}
@@ -62,20 +62,38 @@
 		  margin-bottom: 120px;
 		  position: relative;
 		 	background-color: $dgrey;
+			height: 100px;
+
+		
+			h2{
+				font-size: 2.7em;
+				margin:0;
+			}
+			a{
+				font-size: 1.8em;
+				margin:0;
+				padding:0;
+			}
+			a.active{
+				background: $grey;
+			}
 		}
+		
 		#logo{
-			grid-area:logo;
-		}
-		#logo img{
-		  
+		grid-area:logo;
+		height: 50%;
+    align-self: center;
  		}
 		#menu{
 			grid-area:menu;
+			height: 50%;
+    	align-self: center;
 		}
 		#links{
 			display: flex !important;
 			justify-content:space-around;
-			margin-top: 0 !important;
+			margin: 0 !important;
+			height: 100px;
 		}
 
 		#links a {
