@@ -1,8 +1,16 @@
 @import "globals";
+
 img#selfImg {
   border-radius: 50%;
   width: 100vw;
 }
+#Exlinks{
+  display: inline-block;
+    img{
+      width:90vw;
+    }
+}
+
 .projItem{
   display:flex;
   position: relative;
@@ -13,7 +21,6 @@ img#selfImg {
   box-shadow:4px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
 }
-
 
 .projItem span {
   display: inline-block;

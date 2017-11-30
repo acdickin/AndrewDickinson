@@ -18,7 +18,7 @@ class Header extends React.Component {
 
       <div id="header">
         <div id="logo">
-           <h2>Logo</h2>
+           <h2>Andrew Dickinson</h2>
         </div>
         
         <div id="menu" className={(this.state.menuOpen)? "open" : ""}>

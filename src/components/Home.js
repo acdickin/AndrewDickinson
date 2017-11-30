@@ -2,21 +2,11 @@ import React, {Component} from 'react';
 import { NavLink } from 'react-router-dom'
 
 const Andrew =require('../img/Andrew.jpg')
-// const codepen =require('../img/codepen.png')
-// const github =require('../img/github.png')
-// const linkedin =require('../img/LinkedIn.png')
+const codepen =require('../img/codepen.png')
+const github =require('../img/github.png')
+const linkedin =require('../img/LinkedIn.png')
 
-// <div id="links">
-//   <NavLink href="https://github.com/acdickin">
-//     <img src={github} alt="Github"/>
-//   </NavLink>
-//   <NavLink href="https://codepen.io/einherjar88/">
-//     <img src={codepen} alt="Codepen"/>
-//   </NavLink>
-//   <NavLink href="https://www.linkedin.com/in/andrew-dickinson-a8bbb22a">
-//     <img src={linkedin} alt="Linkedin"/>
-//   </NavLink>
-//  </div>
+
 
 export default class Home extends Component{
    
@@ -35,7 +25,17 @@ export default class Home extends Component{
       </div>
        
 
-   
+      <div id="Exlinks">
+        <a href="https://github.com/acdickin">
+          <img src={github} alt="Github"/>
+        </a>
+        <a href="https://codepen.io/einherjar88/">
+          <img src={codepen} alt="Codepen"/>
+        </a>
+        <a href="https://www.linkedin.com/in/andrew-dickinson-a8bbb22a">
+          <img src={linkedin} alt="Linkedin"/>
+        </a>
+       </div>
         <div id="projListMain">
           <div className="projItem" >
             <span>Proj item</span>
