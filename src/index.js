@@ -7,7 +7,7 @@ import App from './components/App';
 import registerServiceWorker from './registerServiceWorker';
 
 require('./styles/home.scss')
-
+require('./styles/header.scss')
 ReactDOM.render(
   <BrowserRouter>
   	<App />
