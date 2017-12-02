@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import { NavLink } from 'react-router-dom'
 
 const Andrew =require('../img/Andrew.jpg')
 const codepen =require('../img/codepen.png')
@@ -37,19 +36,19 @@ export default class Home extends Component{
         </a>
        </div>
         <div id="projListMain">
-          <div className="projItem" >
+          <div id="proj1" className="projItem" >
             <span>Proj item</span>
           </div>
-          <div className="projItem" >
+          <div id="proj2" className="projItem" >
              <span>Proj item</span>
           </div>
-          <div className="projItem" >
+          <div id="proj3" className="projItem" >
             <span>Proj item</span>
           </div>
-          <div className="projItem" >
+          <div id="proj4" className="projItem" >
             <span>Proj item</span>
           </div>
-          <div className="projItem" >
+          <div id="proj5" className="projItem" >
             <span>Proj item</span>
           </div>
         </div>

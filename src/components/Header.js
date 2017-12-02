@@ -32,7 +32,7 @@ class Header extends React.Component {
           </div>
           <div id="links" onClick={this.closeDropdown} className={(this.state.menuOpen)? "active" : ""} >
            <NavLink exact to='/' activeClassName="active">Home</NavLink>
-	         <NavLink to ='/projects' activeClassName="active">About us</NavLink>
+	         <NavLink to ='/projects' activeClassName="active">Projects</NavLink>
 	 				 <NavLink to ='/resume' activeClassName="active">Services</NavLink>
           </div>
         </div>
