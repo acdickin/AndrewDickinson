@@ -68,11 +68,12 @@ export default class Resume extends Component{
 
 					<div id="edu">
 					<h2> Education</h2>
+							<h4>Seattle Central College, Seattle, WA</h4>
 							<p>Post-Bachelor Studies in Database Administration	Graduated December 2014</p>
-							<p>Seattle Central College, Seattle, WA            	       </p>
-							<p>Dean’s List, President's List                             	GPA: 3.97</p>
+							
+							<p>Dean’s List, President's List GPA: 3.97</p>
+							<h4>Oakland University, Rochester, MI	</h4>
 							<p>Bachelors of Integrative Studies, emphasis in Law and Communications	Graduated December 2010</p>
-							<p>Oakland University, Rochester, MI	</p>
 					</div>
 				</div>
       </div>
