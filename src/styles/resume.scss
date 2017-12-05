@@ -10,7 +10,10 @@
     display: inline-grid;
   }
 
-
+#skills{
+  display: flex;
+  justify-content: space-evenly;
+}
 .button{
   background-color: $blue; /* Green */
   border: none;
@@ -44,9 +47,5 @@
   #rDoc{
     width:80vw;
     margin: 0 auto;
-  }
-  #skills{
-    display: flex;
-    justify-content: space-evenly;
   }
 }

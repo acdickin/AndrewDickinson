@@ -1,0 +1,28 @@
+@import "globals";
+#projMenu{
+	width:90vw;
+	height:30px;
+	font-size: 1.2em;
+	padding:10px 0;
+	margin: 0 auto;
+	background-color: $grey;
+  display: flex;
+  justify-content: space-evenly;
+	text-align: center;
+	a{
+  	text-decoration:none;
+  	color:$white;
+	}
+	a:hover{
+		color:$ygreen;
+	}
+	.projActive{
+		color:$blue;
+	}
+}
+@media (min-width:700px){
+	#projMenu{
+		font-size: 1.3em;
+		width:80vw;
+	}
+}
