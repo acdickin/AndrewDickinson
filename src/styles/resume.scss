@@ -1,5 +1,6 @@
 @import "globals";
 #resume{
+  text-align: center;
   margin-bottom: 40px;
   h1,h2{
     text-align: center;
@@ -28,7 +29,7 @@
 #exp{
   background-color: $dgrey;
 }
-#skills{
+#skillBox{
   background-color: $blue;
 }
 #edu{
@@ -36,9 +37,16 @@
 }
 
 @media (min-width: 700px){
-   #buttons{
+  #buttons{
     display: flex;
     justify-content: space-evenly;
   }
-
+  #rDoc{
+    width:80vw;
+    margin: 0 auto;
+  }
+  #skills{
+    display: flex;
+    justify-content: space-evenly;
+  }
 }

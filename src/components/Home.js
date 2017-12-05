@@ -13,7 +13,7 @@ export default class Home extends Component{
    
   render(){
     return(
-      <div id="aboutme">
+      <div id="home">
         <div id="selfBox">
           <div id="imageBox">
            <img id="selfImg" src={Andrew}  alt="Andrew Dickinson"/>

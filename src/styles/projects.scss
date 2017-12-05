@@ -1,0 +1,36 @@
+@import "globals";
+#projList{
+	text-align: center;
+}
+.proj{
+	width:80vw;
+	margin:0 auto
+}	
+#projmkc{
+	background-color: $blue;
+}
+#projkrandrew{
+	background-color: $grey;
+}
+#projtothe{
+	background-color: $ygreen;
+}
+@media (min-width:700px){
+	#projList{
+		display:grid;
+		grid-template-columns:repeat(2,1fr);
+		background-color: $grey;
+	}
+	.proj{
+		width:90%;
+	}
+	#projmkc{
+		background-color: $grey;
+	}
+	 #projkrandrew{
+		background-color: $grey;
+	}
+	#projtothe{
+		background-color: $grey;
+	}
+}

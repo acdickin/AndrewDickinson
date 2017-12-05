@@ -115,16 +115,18 @@ img#selfImg {
     background-color: $grey;
     box-shadow:4px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
-  #proj1{
-    grid-column:1;
+  #home{
+    #proj1{
+      grid-column:1;
 
-  }
-  #proj2{
-    grid-column:2;
+    }
+    #proj2{
+      grid-column:2;
 
-  }
-  #proj3{
-    grid-column:3;
+    }
+    #proj3{
+      grid-column:3;
+    }
   }
 
 
