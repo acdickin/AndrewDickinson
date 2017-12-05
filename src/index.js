@@ -8,6 +8,9 @@ import registerServiceWorker from './registerServiceWorker';
 
 require('./styles/home.scss')
 require('./styles/header.scss')
+require('./styles/resume.scss')
+require('./styles/footer.scss')
+
 ReactDOM.render(
   <BrowserRouter>
   	<App />

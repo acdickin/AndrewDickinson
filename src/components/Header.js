@@ -18,7 +18,7 @@ class Header extends React.Component {
 
       <div id="header">
         <div id="logo">
-           <h2>Andrew Dickinson</h2>
+          <NavLink exact to='/'> <h2>Andrew Dickinson</h2></NavLink>
         </div>
         
         <div id="menu" className={(this.state.menuOpen)? "open" : ""}>
@@ -33,7 +33,7 @@ class Header extends React.Component {
           <div id="links" onClick={this.closeDropdown} className={(this.state.menuOpen)? "active" : ""} >
            <NavLink exact to='/' activeClassName="active">Home</NavLink>
 	         <NavLink to ='/projects' activeClassName="active">Projects</NavLink>
-	 				 <NavLink to ='/resume' activeClassName="active">Services</NavLink>
+	 				 <NavLink to ='/resume' activeClassName="active">Resume</NavLink>
           </div>
         </div>
       </div>

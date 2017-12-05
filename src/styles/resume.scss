@@ -1,0 +1,44 @@
+@import "globals";
+#resume{
+  margin-bottom: 40px;
+  h1,h2{
+    text-align: center;
+  }
+}
+  #buttons{
+    display: inline-grid;
+  }
+
+
+.button{
+  background-color: $blue; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  font-size: 2em;
+  cursor: pointer;
+  border-radius: 12px;
+  width: 300px;
+  margin:10px;
+}
+
+#rtop{
+  background-color: $ygreen;
+}
+#exp{
+  background-color: $dgrey;
+}
+#skills{
+  background-color: $blue;
+}
+#edu{
+  background-color: $grey;
+}
+
+@media (min-width: 700px){
+   #buttons{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+}
