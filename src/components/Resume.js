@@ -12,16 +12,16 @@ export default class Resume extends Component{
 					<div id="rtop">
 						<h1>ANDREW DICKINSON</h1>    
 						<p id="rcontact">(248) 935-8911 • acdickin@gmail.com • 5530 S 129th st, Seattle, WA 98178</p>
-							I am an experienced web developer currently looking for new opportunities in both frontend and backend development. I am well-versed in Javascript and libraries such as jQuery and ReactJS, and quickly learn new libraries and languages as needed.
+						<p>	I am an experienced web developer currently looking for new opportunities in both frontend and backend development. I am well-versed in Javascript and libraries such as jQuery and ReactJS, and quickly learn new libraries and languages as needed.</p>
 					</div>
 					<div id="exp">
 					<h2> Experience</h2>
-						<h4>Web Developer	March 2016 - Present,   National Center for Telehealth & Technology	Lakewood, WA</h4>
+						<h3>Web Developer	March 2016 - Present,   National Center for Telehealth & Technology	Lakewood, WA</h3>
 			
 						<p>Creating and updating drupal pages for Military kids connect</p>
 						<p>Creating, Testing, debugging, migrating to latest version, and refactoring  React, Ember and Angular projects</p>
 						<p>Sprint planning, creating documentation, maintenance, end to end and  behavior-driven testing </p>
-						<h4>Tier 3 Tech Support 	May 2015 - March 2016,     Microsoft/Bing Ads	Seattle, WA   </h4>
+						<h3>Tier 3 Tech Support 	May 2015 - March 2016,     Microsoft/Bing Ads	Seattle, WA   </h3>
 						<p>Troubleshooting for accounts and and client billing</p>
 						<p>Writing SQL queries to verify content visible to clients</p>
 						<p>Creating reports about site traffic quality</p>
@@ -38,8 +38,8 @@ export default class Resume extends Component{
 									<li>jQuery</li>
 									<li>SQL</li>
 									<li>mySQL</li>
-									<li>GIt</li>
 									<li>Jasmine</li>
+									<li>EmberJS</li>
 								</ul>
 								<ul id="skill2">	
 									<li>Drupal</li>
@@ -50,7 +50,6 @@ export default class Resume extends Component{
 									<li>Github</li>
 									<li>Jenkins	</li>
 									<li>Selenium</li>
-									<li>EmberJS</li>
 								</ul>
 								<ul id="skill3">	
 									<li>Mongo</li>
@@ -68,11 +67,11 @@ export default class Resume extends Component{
 
 					<div id="edu">
 					<h2> Education</h2>
-							<h4>Seattle Central College, Seattle, WA</h4>
+							<h3>Seattle Central College, Seattle, WA</h3>
 							<p>Post-Bachelor Studies in Database Administration	Graduated December 2014</p>
 							
 							<p>Dean’s List, President's List GPA: 3.97</p>
-							<h4>Oakland University, Rochester, MI	</h4>
+							<h3>Oakland University, Rochester, MI	</h3>
 							<p>Bachelors of Integrative Studies, emphasis in Law and Communications	Graduated December 2010</p>
 					</div>
 				</div>

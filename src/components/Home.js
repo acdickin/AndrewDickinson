@@ -19,9 +19,9 @@ export default class Home extends Component{
            <img id="selfImg" src={Andrew}  alt="Andrew Dickinson"/>
           </div>
         <div id="selfText">
-          <p>
+          <h4>
             Hi, I'm Andrew Dickinson! Originally from Michigan, I've been living in Seattle since 2014. When I am not creating websites and components, I enjoy hiking, camping, making music and playing games.
-          </p>
+          </h4>
         </div>
       </div>
        
