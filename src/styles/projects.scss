@@ -19,18 +19,19 @@
 	#projList{
 		display:grid;
 		grid-template-columns:repeat(2,1fr);
-		background-color: $grey;
+		background-color: $ygreen;
+		margin: 40px 0;
 	}
 	.proj{
 		width:90%;
 	}
 	#projmkc{
-		background-color: $grey;
+		background-color: $ygreen;
 	}
 	 #projkrandrew{
-		background-color: $grey;
+		background-color: $ygreen;
 	}
 	#projtothe{
-		background-color: $grey;
+		background-color: $ygreen;
 	}
 }
