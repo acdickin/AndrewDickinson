@@ -1,8 +1,7 @@
 @import "globals";
 #projMenu{
 	width:95vw;
-	height:30px;
-	font-size: 1.2em;
+	font-size: .8em;
 	padding:10px;
 	margin: 0 auto;
 	background-color: $grey;
@@ -20,9 +19,9 @@
 		color:$blue;
 	}
 }
-@media (min-width:700px){
+@media (min-width:800px){
 	#projMenu{
-		font-size: 1.3em;
+		font-size: 1.5em;
 		width:80vw;
 	}
 }

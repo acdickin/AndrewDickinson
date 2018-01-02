@@ -4,6 +4,7 @@ $green:#6FCF97;
 $grey: #828282;
 $dgrey: #6E6E70;
 $white: #F2F2F2;
+
 body{
   margin:0;
   background-color:$white;
@@ -11,15 +12,70 @@ body{
   color:#000;
 }
 .content{
-   min-height: calc(100vh - 80px);
-   margin-top: 80px;
+  min-height: calc(100vh - 80px);
+  margin-top: 80px;
 }
 .container{
   margin:0;
   padding:0;
 }
-@media (min-width:700px){
+.projImg{
+  width:100vw;
+}
+
+h2{
+  font-size: 3em;
+}
+h3{
+  font-size: 2em;
+}
+h2{
+  margin: 10px;
+}
+h3{
+  margin: 40px;
+}
+.desktop{
+  text-align: center;
+  width:100vw;
+  margin: 0 auto;
+  background-color: $blue;
+  padding:20px;
+  margin-top: 20px;
+}
+.mobile{
+  text-align: center;
+  width:100vw;
+  margin: 0 auto;
+  background-color: $green;
+  padding:20px;
+  margin-top: 20px;
+}
+.projText{
+  text-align: center;
+  background-color: $grey;
+  color:$white;
+  margin:40px 0;
+  padding:10px;
+  p{
+    font-size: 1.8em;
+  }
+  a{
+    font-size: 1.8em;
+    color:$blue;
+    text-decoration:none; 
+  }
+  a:hover{
+   color:$green; 
+   text-decoration:none; 
+   cursor:pointer;  
+  }
+}
+@media (min-width:800px){
 	.content{
 	   margin-top: 20px;
 	}
+  .projImg{
+    width:40vw;
+   }
 }

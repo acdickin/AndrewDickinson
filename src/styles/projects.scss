@@ -15,7 +15,7 @@
 #projtothe{
 	background-color: $ygreen;
 }
-@media (min-width:700px){
+@media (min-width:800px){
 	#projList{
 		display:grid;
 		grid-template-columns:repeat(2,1fr);

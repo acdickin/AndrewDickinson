@@ -13,12 +13,11 @@ class Header extends React.Component {
     this.setState({menuOpen: false});
   }
   render(){
-    console.log(this.state.menuOpen)
     return(
 
       <div id="header">
         <div id="logo">
-          <NavLink exact to='/'> <h2>Andrew Dickinson</h2></NavLink>
+          <NavLink exact to='/'> <h1>Andrew Dickinson</h1></NavLink>
         </div>
         
         <div id="menu" className={(this.state.menuOpen)? "open" : ""}>

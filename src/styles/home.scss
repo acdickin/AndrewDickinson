@@ -3,7 +3,12 @@
 a{
   text-decoration:none;
 }
-
+p{
+  margin:0;
+}
+h1{
+  margin: 0;
+}
 img#selfImg {
   border-radius: 50%;
   width: 100vw;
@@ -15,12 +20,15 @@ img#selfImg {
     img{
       width:90vw;
     }
+  .exImg{
+    margin: 10px 20px;
+  }
 }
 #selfText{
   background-color: $blue;
   font-size: 1.4em;
   text-align: center;
-  padding:10px;
+  padding:10px 20px;
   margin:20px 0 ;
 }
 .projItem{
@@ -61,7 +69,7 @@ img#selfImg {
     background-size:cover;
   }
 
-@media (min-width:700px){
+@media (min-width:800px){
 	
   img#selfImg {
     width: 35vw;
@@ -76,7 +84,7 @@ img#selfImg {
 
   }
   #Exlinks{ 
-  img{
+    img{
       width:70%;
       height: 100px;
     }
@@ -92,11 +100,11 @@ img#selfImg {
     text-align:center;
   }
   #selfText{
-    
     display: flex;
     align-items: center;
     justify-content: center;
     line-height: 80px;
+    font-size: 3em;
 
   }
 
@@ -130,7 +138,7 @@ img#selfImg {
 
 
 }
-@media (max-width:699px){
+@media (max-width:799px){
   .projItem{
     width:90%;
     height:200px;
