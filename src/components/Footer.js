@@ -16,9 +16,9 @@ export default class Footer extends Component {
 	        <h3 id="email">acdickin@gmail.com</h3>
         </div>
         <div id = "mobileMenu">
-        	 	<NavLink exact to='/' activeClassName="active"> <FaHome/> <p>Home</p> </NavLink>
-	          <NavLink to ='/projects' activeClassName="active"><FaSuitcase/> <p>Projects</p> </NavLink>
-	 				  <NavLink to ='/resume' activeClassName="active"><FaClipboard/> <p>Resume</p> </NavLink>
+        	 	<NavLink exact to='/' activeClassName="active"> <FaHome size={40}/> <p>Home</p> </NavLink>
+	          <NavLink to ='/projects' activeClassName="active"><FaClipboard size={40}/> <p>Projects</p> </NavLink>
+	 				  <NavLink to ='/resume' activeClassName="active"> <FaSuitcase size={40}/><p>Resume</p> </NavLink>
         </div>
       </div>
     )

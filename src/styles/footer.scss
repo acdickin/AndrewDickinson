@@ -5,10 +5,10 @@
   bottom:0px;
   background-color: $dgrey;
   color:$white;
-
+  padding:5px 0;
   text-align: center;
   p{
-    font-size: 1.4em;
+    font-size: 1.2em;
   }
   h3{
   	font-size: 2em;
@@ -23,7 +23,8 @@
   }
   a.active{
     background-color:$dgrey ;
-    color:$green ;
+    color:$green;
+ 
     p{
       color: $green;
     }

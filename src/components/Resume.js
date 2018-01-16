@@ -17,11 +17,13 @@ export default class Resume extends Component{
 					</div>
 					<div id="exp">
 					<h2> Experience</h2>
-						<h3>Web Developer	March 2016 - Present,   National Center for Telehealth & Technology	Lakewood, WA</h3>
-			
-						<p>Creating and updating drupal pages for Military kids connect</p>
-						<p>Creating, Testing, debugging, migrating to latest version, and refactoring  React, Ember and Angular projects</p>
-						<p>Sprint planning, creating documentation, maintenance, end to end and  behavior-driven testing </p>
+						<h3>Web Developer	March 2016 - Present,   National Center for Telehealth & Technology	Lakewood, WA</h3><br/>
+						<p><strong>Military Kids Connect </strong>- Drupal, PHP, CSS, Javascript : Created new pages, fixed bugs, updated videos players, created views, updated templates</p><br/>
+						<p><strong>Infographic</strong> - EmberJs, SCSS, BootStrap : Created pages using document specifications and visual aids, Created CSS Animations, Passed data from drupal api to the front end</p><br/>
+						<p><strong>Messageboard</strong> - Angular, SCSS, BootStrap : Worked on the comment boxes for the message board focusing on created a WYSIWYG with custom emojis, Upgraded From Angular 1.7 to 4.  Refactored components to make them more reusable and cleaner. Created end-to-end  and behavior-driven testing using Jasmine, Selenium and Protractor.</p><br/>
+						<p><strong>PWA</strong> - React, Redux, Cordova : Create a React-Redux project for After deployment. Updated the assessments module. </p><br/>
+						<p><strong>All Projects</strong> : Created sprint plans, Documentation in Gitlab and created ad Jenkins shell script Job to build latest tagged messageboard  and infographic projects and diff the newest and second newest tagged MKC build to create assets of the changes.</p>
+						<br/>
 						<h3>Tier 3 Tech Support 	May 2015 - March 2016,     Microsoft/Bing Ads	Seattle, WA   </h3>
 						<p>Troubleshooting for accounts and and client billing</p>
 						<p>Writing SQL queries to verify content visible to clients</p>
