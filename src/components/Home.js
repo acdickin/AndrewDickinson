@@ -41,17 +41,17 @@ export default class Home extends Component{
         <div id="projListMain">
           <NavLink exact to='/projects/mkc'>
             <div id="proj1" className="projItem" >
-              <span>Military Kids Connect</span>
+              <span>MILITARY KIDS CONNECT</span>
             </div>
           </NavLink>
           <NavLink to ='/projects/to-the-9s'>
             <div id="proj2" className="projItem" >
-               <span>To the 9's </span>
+               <span>TO THE 9'S </span>
             </div>
           </NavLink>
           <NavLink to ='/projects/krandrew'>
             <div id="proj3" className="projItem" >
-              <span>Krystaal and Andrew's wedding website</span>
+              <span> WEDDING WEBSITE</span>
             </div>
            </NavLink>
         </div>

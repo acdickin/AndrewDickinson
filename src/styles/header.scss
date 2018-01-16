@@ -1,14 +1,21 @@
 @import './globals';
+
+h1{
+	text-align: left;
+  font-size: 1.2em;
+  line-height: 30px;
+  margin:0
+}
 #header{
 	height: 60px;
-	width:100%;
+	width:100vw;
 	top:0;
 	padding-bottom: 10px;
 	position: fixed;
 	z-index: 666;	
 	background: $green;
 	opacity:.9;
-
+	
 	#logo{
 		text-align: center;
 		float: left;
@@ -64,20 +71,23 @@
 	#header{
 		display: grid;
 		grid-template-areas:
-		"  logo .  menu menu menu";
+		"  logo  menu menu menu";
 	  position: relative;
 	 	background-color: $dgrey;
-		height: 110px;
+		height: 80px;
 		margin-top: 0;
 
 		h1{
-			font-size: 2.5em;
-			margin:0;
+			font-size: 2em;
+	    padding: 0 10%;
+	    color:$white;
 		}
 		a{
-			font-size: 1.7em;
+			font-size: 1.4em;
+    	line-height: 3.7;
 			margin:0;	
 			padding:0;
+			color:$white;
 		}
 		a.active{
 			background: $grey;
@@ -102,7 +112,7 @@
 	#links a {
 		margin:0;
 	  border-radius: 5%;
-		height: 120px;
+		height: 90px;
 	}
 	
 	#nav-icon{ display: none; 

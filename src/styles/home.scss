@@ -19,17 +19,19 @@ img#selfImg {
   margin:40px 0; 
     img{
       width:90vw;
+      height: 50vh;
     }
   .exImg{
     margin: 10px 20px;
   }
 }
 #selfText{
-  background-color: $blue;
-  font-size: 1.4em;
   text-align: center;
-  padding:10px 20px;
-  margin:20px 0 ;
+  h4{
+    background-color: $blue;  
+    font-size: 1.4em;
+    padding: 40px 10px;
+  }
 }
 .projItem{
   display:flex;
@@ -44,8 +46,8 @@ img#selfImg {
   align-self: flex-end;   
   background-color: $grey;
   width:100%;
-  opacity: .7;
-  font-size: 1.3em;
+  opacity: 1;
+  font-size: 1.4em;
 }
 .projItem:hover{
 
@@ -55,10 +57,7 @@ img#selfImg {
   -moz-transition: 1s ease-in-out;
   -o-transition: 1s ease-in-out;
   transition: 1s ease-in-out;
-  span{
-   font-size: 1.4em;
-   opacity: .99;
-  }
+ 
 }
  #proj1{
     background-image: url('../img/mkc.png') ;
@@ -76,7 +75,7 @@ img#selfImg {
 @media (min-width:800px){
 	
   img#selfImg {
-    width: 35vw;
+    width: 30vw;
   }
   #Exlinks{
     display: grid;
@@ -107,17 +106,18 @@ img#selfImg {
     display: flex;
     align-items: center;
     justify-content: center;
-    line-height: 80px;
-    font-size: 3em;
+    line-height: 60px;
+    font-size: 1.5em;
+
   }
 
   #projListMain{
     display:grid;
     width:90%;
     margin: 0 auto;
-    grid-column-gap:10px;
+    grid-column-gap:60px;
     grid-row-gap:10px;
-    grid-template-columns:repeat(3,1fr);
+    grid-template-columns:repeat(2,1fr);
 
   }
   .projItem{
