@@ -2,6 +2,7 @@
 
 a{
   text-decoration:none;
+  color:$white;
 }
 p{
   margin:0;
@@ -10,23 +11,29 @@ h1{
   margin: 0;
 }
 img#selfImg {
-  border-radius: 50%;
+  width: 30%;
   width: 100vw;
 }
 #Exlinks{
-  background-color:$ygreen;
-  display: inline-block;
-  margin:40px 0; 
-    img{
-      width:90vw;
-      height: 50vh;
-    }
-  .exImg{
-    margin: 10px 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  background-color: $ygreen;
+  
+  img{
+    width:50%;
+
+  }
+  p{
+    font-size:1.4em
   }
 }
 #selfText{
-  text-align: center;
+  text-align: center;  
+  align-items: center;
+  justify-content: center;
+  
   h4{
     background-color: $blue;  
     font-size: 1.4em;
@@ -38,7 +45,13 @@ img#selfImg {
   position: relative;
   text-align: center;
   margin-bottom: 100px;
+  width:90%;
+  height:300px;
+  margin:5%;
+  background-color: $grey;
+  box-shadow:4px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 .projItem span {
   color:$white;
   display: inline-block;
@@ -57,7 +70,6 @@ img#selfImg {
   -moz-transition: 1s ease-in-out;
   -o-transition: 1s ease-in-out;
   transition: 1s ease-in-out;
- 
 }
  #proj1{
     background-image: url('../img/mkc.png') ;
@@ -72,24 +84,30 @@ img#selfImg {
     background-size:cover;
   }
 
+
+
+
+
+
 @media (min-width:800px){
 	
   img#selfImg {
-    width: 30vw;
+    width: 80%;
+    padding-top: 10%;
   }
-  #Exlinks{
-    display: grid;
-    grid-column-gap:10px;
-    grid-row-gap:10px;
-    grid-template-columns:repeat(3,1fr);
-    text-align:center;
-    margin: 40px auto;
-
-  }
+  
   #Exlinks{ 
+    display: flex;
+    margin-bottom:50px;
+
+    .exImg{
+      margin: 0; 
+      width: 33%;
+      text-align: center;
+    }
     img{
-      width:70%;
-      height: 120px;
+      width:100px;
+      height: 100px;
     }
   }  
  
@@ -138,17 +156,13 @@ img#selfImg {
       grid-column:3;
     }
   }
-
+  #contact-info{
+    display: none;
+  }
 
 }
 @media (max-width:799px){
-  .projItem{
-    width:90%;
-    height:200px;
-    margin:5%;
-    background-color: $grey;
-    box-shadow:4px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
+  
 }
 
 

@@ -29,12 +29,15 @@ export default class Home extends Component{
       <div id="Exlinks">
         <a className="exImg" href="https://github.com/acdickin">
           <img src={github} alt="Github"/>
+          <p>Github</p>
         </a>
         <a className="exImg" href="https://codepen.io/einherjar88/">
           <img src={codepen} alt="Codepen"/>
+          <p>Codepen</p>
         </a>
         <a className="exImg" href="https://www.linkedin.com/in/andrew-dickinson-a8bbb22a">
           <img src={linkedin} alt="Linkedin"/>
+          <p>Linkedin</p>
         </a>
        </div>
 
