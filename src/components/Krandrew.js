@@ -14,7 +14,7 @@ export default class Krandrew extends Component{
 	       	<a href='http://Krandrew.us' alt='Krystaal and Andrew wedding website'>Krystaal and Andrew's wedding website</a>
 				</div>
 
-				<div className='desktop'>
+				<div className='desktop_view'>
 	       	<h3>Destop View</h3>
 	        <img className="projImg" src={KA1} alt='Desktop Krandrew'/>
 	      </div> 

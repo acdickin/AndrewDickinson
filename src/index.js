@@ -12,7 +12,6 @@ require('./styles/footer.scss')
 require('./styles/resume.scss')
 require('./styles/projects.scss')
 require('./styles/projMenu.scss')
-require('./styles/tothe9.scss')
 require('./styles/mkc.scss')
 ReactDOM.render(
   <HashRouter>

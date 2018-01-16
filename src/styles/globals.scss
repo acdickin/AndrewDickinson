@@ -21,11 +21,11 @@ body{
 }
 
 h2{
-  font-size: 3em;
-    margin: 10px;
+  font-size: 1.8em;
+  margin: 10px;
 }
 h3{
-  font-size: 2em;
+  font-size: 1.6em;
   margin: 40px; 
   color: $white;  
 }
@@ -69,6 +69,10 @@ a{
   }
 }
 @media (min-width:800px){
+  h2{
+    font-size: 3em;
+    margin: 10px;
+  }
   .projImg{
     width:40vw;
      margin: 20px;

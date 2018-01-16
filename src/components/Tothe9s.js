@@ -15,7 +15,7 @@ export default class Tothe9s extends Component{
 		        <a href='https://tothe9slimos.com' alt='Link for To The 9s'>To The 9's website</a>
 		      	<p>The following views are the new styling </p>
 					</div>
-	      	<div className='desktop'>
+	      	<div className='desktop_view'>
 		      	<h3>Destop View</h3>
 		        <img className="projImg" src={tothe1} alt='Desktop to the 9s'/>
 		        <img className="projImg" src={tothe2} alt='Desktop to the 9s'/>

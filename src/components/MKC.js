@@ -11,7 +11,7 @@ export default class MKC extends Component{
        	<div className="projText">
        		<h2>Military Kids Connect</h2>
        	</div>
-       	<div className='desktop'>
+       	<div className='desktop_view'>
        		<p> Military Kids Connect is a site that was create to help children whose parents are in the military,</p>
        		<p> better deal with the stresses and strains of that life</p>
        		<p> It was created in Drupal with SQL backend</p>
