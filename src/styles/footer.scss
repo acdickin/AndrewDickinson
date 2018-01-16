@@ -1,33 +1,56 @@
 @import "globals";
 
 #footer{
+  position:sticky;
+  bottom:0px;
   background-color: $dgrey;
   color:$white;
-  height: 100px;
-  padding: 0 20px;
+
   text-align: center;
   p{
-   font-size: 1.8em;
-  }
-  a{
-    font-size: 1.8em;
+    font-size: 1.4em;
   }
   h3{
   	font-size: 2em;
   	margin: 10px;
   }
-}
+  #mobileMenu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-evenly;
+  }
+  a.active{
+    background-color:$dgrey ;
+    color:$green ;
+    p{
+      color: $green;
+    }
+  }
+  #contact{
+    display: none;      
+  }
 
-#andrew:hover {
-  background-color: $grey;
+  #andrew:hover {
+    background-color: $grey;
+  }
 }
+  
 
 
 @media (min-width:800px){
 	#footer{
+    position: inherit;
 		height: 80px;
-	}
-	
+    padding: 0 20px;
+  }
+	#mobileMenu{
+    display: none !important; 
+  }
+  #contact{
+    display: block !important;      
+  }
   #phone{
  	  float:left;
  	  h3{

@@ -13,25 +13,25 @@
 	background-color: $grey;
 }
 #projtothe{
-	background-color: $ygreen;
+	background-color: $green;
 }
 @media (min-width:800px){
 	#projList{
 		display:grid;
 		grid-template-columns:repeat(2,1fr);
-		background-color: $ygreen;
+		background-color: $green;
 		margin: 40px 0;
 	}
 	.proj{
 		width:90%;
 	}
 	#projmkc{
-		background-color: $ygreen;
+		background-color: $green;
 	}
 	 #projkrandrew{
-		background-color: $ygreen;
+		background-color: $green;
 	}
 	#projtothe{
-		background-color: $ygreen;
+		background-color: $green;
 	}
 }

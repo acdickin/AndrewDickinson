@@ -19,13 +19,14 @@ img#selfImg {
   justify-content: center;
   text-align: center;
   display: flex;
-  background-color: $ygreen;
+  background-color: $green;
   
   img{
     width:50%;
 
   }
   p{
+    color:black;
     font-size:1.4em
   }
 }

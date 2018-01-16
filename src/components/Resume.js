@@ -12,6 +12,7 @@ export default class Resume extends Component{
 					<div id="rtop">
 						<h1>ANDREW DICKINSON</h1>    
 						<p id="rcontact">(248) 935-8911 • acdickin@gmail.com • 5530 S 129th st, Seattle, WA 98178</p>
+						<br/>
 						<p>	I am an experienced web developer currently looking for new opportunities in both frontend and backend development. I am well-versed in Javascript and libraries such as jQuery and ReactJS, and quickly learn new libraries and languages as needed.</p>
 					</div>
 					<div id="exp">

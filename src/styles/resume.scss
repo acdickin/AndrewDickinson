@@ -12,6 +12,7 @@
     font-size: 1.7em;
   }
   h2{
+    color:$white;
     font-size: 1.5em;  
   }
   h3{
@@ -26,10 +27,14 @@
   li{
     list-style-type: none;
   }
-}
-  #buttons{
-    display: inline-grid;
+  ul{
+    padding: 0;
   }
+}
+#buttons{
+  display: inline-grid;
+}
+
 
  
 .button{
@@ -45,7 +50,7 @@
 }
 
 #rtop{
-  background-color: $ygreen;
+  background-color: $green;
 }
 #exp{
   background-color: $dgrey;
