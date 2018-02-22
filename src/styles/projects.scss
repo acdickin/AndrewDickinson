@@ -12,8 +12,11 @@
 #projkrandrew{
 	background-color: $grey;
 }
-#projtothe{
+#projmessageboard{
 	background-color: $green;
+}
+#projplantingpals{
+	background-color: $blue;
 }
 @media (min-width:800px){
 	#projList{
@@ -25,13 +28,19 @@
 	.proj{
 		width:90%;
 	}
+	.projpp{
+		width:70%;
+	}
 	#projmkc{
 		background-color: $green;
 	}
 	 #projkrandrew{
 		background-color: $green;
 	}
-	#projtothe{
+	#projmessageboard{
+		background-color: $green;
+	}
+	#projplantingpals{
 		background-color: $green;
 	}
 }

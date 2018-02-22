@@ -8,7 +8,7 @@ import Resume from './Resume'
 import MKC from './MKC'
 import Krandrew from './Krandrew'
 import Messageboard from './Messageboard'
-
+import Plantingpals from './Plantingpals'
 
  import { Route} from 'react-router-dom'
   
@@ -28,6 +28,7 @@ export default class App extends Component {
             <Route exact path="/projects/mkc" component={MKC}/>
             <Route exact path="/projects/krandrew" component={Krandrew}/>
             <Route exact path="/projects/messageboard" component={Messageboard}/>
+            <Route exact path="/projects/plantingpals" component={Plantingpals}/>
           </div>
         <Footer/>
       </div>

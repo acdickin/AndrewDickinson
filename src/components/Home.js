@@ -56,7 +56,12 @@ export default class Home extends Component{
             <div id="proj3" className="projItem" >
               <span> WEDDING WEBSITE </span>
             </div>
-           </NavLink>
+          </NavLink>
+          <NavLink to ='/projects/messageboard'>
+            <div id="proj4" className="projItem" >
+              <span> MESSAGE BOARD </span>
+            </div>
+          </NavLink>
         </div>
       </div>
     )

@@ -73,22 +73,23 @@ img#selfImg {
   transition: 1s ease-in-out;
 }
  #proj1{
-    background-image: url('../img/mkc.png') ;
-    background-size:cover;
-  }
-  #proj2{
-    background-image: url('../img/Messageboard.png');
-    background-size:cover;
-  }
-  #proj3{
-    background-image: url('../img/krandrew.png');
-    background-size:cover;
-  }
-
-
-
-
-
+  background-image: url('../img/mkc.png') ;
+  background-size:cover;
+}
+#proj2{
+  background-image: url('../img/Messageboard.png');
+  background-size:cover;
+}
+#proj3{
+  background-image: url('../img/krandrew.png');
+  background-size:cover;
+}
+#proj4{
+  background-image: url('../img/pp.png');
+  background-size:cover;
+  width:50%;
+  margin:0 auto;
+}
 
 @media (min-width:800px){
 	
