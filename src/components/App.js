@@ -7,7 +7,7 @@ import Projects from './Projects'
 import Resume from './Resume'
 import MKC from './MKC'
 import Krandrew from './Krandrew'
-import Tothe9s from './Tothe9s'
+import Messageboard from './Messageboard'
 
 
  import { Route} from 'react-router-dom'
@@ -15,6 +15,7 @@ import Tothe9s from './Tothe9s'
   // <Route path="/about" component={About} />
   // <Route path="/services" component={Services} />
   // <Route path="/contact" component={Contact} />
+  
 export default class App extends Component {
   render() {
     return (
@@ -26,7 +27,7 @@ export default class App extends Component {
             <Route path="/resume" component={Resume}/>
             <Route exact path="/projects/mkc" component={MKC}/>
             <Route exact path="/projects/krandrew" component={Krandrew}/>
-            <Route exact path="/projects/to-the-9s" component={Tothe9s}/>
+            <Route exact path="/projects/messageboard" component={Messageboard}/>
           </div>
         <Footer/>
       </div>
