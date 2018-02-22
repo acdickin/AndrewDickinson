@@ -57,9 +57,9 @@ export default class Home extends Component{
               <span> WEDDING WEBSITE </span>
             </div>
           </NavLink>
-          <NavLink to ='/projects/messageboard'>
+          <NavLink to ='/projects/plantingpals'>
             <div id="proj4" className="projItem" >
-              <span> MESSAGE BOARD </span>
+              <span> PLANTING PALS </span>
             </div>
           </NavLink>
         </div>
